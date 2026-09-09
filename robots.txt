@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hub-charla-a-un-click.vercel.app/sitemap.xml
