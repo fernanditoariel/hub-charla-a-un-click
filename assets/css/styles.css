@@ -538,6 +538,23 @@ p { margin: 0; }
 .quote-cite { margin-top: 24px; color: var(--text-dim); font-size: 0.95rem; }
 .quote-cite b { color: var(--text); font-weight: 500; }
 
+/* ---------- Encuesta CACE ---------- */
+.survey {
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-lg);
+  padding: clamp(28px, 5vw, 52px);
+  background:
+    radial-gradient(120% 120% at 100% 0%, rgba(34, 211, 238, 0.16), transparent 55%),
+    var(--bg-elev);
+}
+.survey__body { max-width: 62ch; }
+.survey h2 { margin-bottom: 16px; }
+.survey p { color: var(--text-dim); }
+.survey p + p { margin-top: 12px; }
+.survey__meta { font-size: 0.9rem; color: var(--text-mut); }
+.survey .btn { margin-top: 26px; }
+.survey .btn svg { width: 18px; height: 18px; }
+
 /* ---------- Espacios ---------- */
 .spaces-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 44px; }
 .space-card {
